@@ -1,0 +1,47 @@
+
+.api-action {
+	padding: 0 0 10px 0;
+}
+
+.position-info {
+	padding: 10px 0;
+}
+
+.table-list {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-list td, .table-list th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.table-list tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.table-list tr:hover {
+	background-color: #ddd;
+}
+
+.table-list th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #04AA6D;
+	color: white;
+}
+
+p.nothing {
+	text-align: center;
+}
+
+.result-div {
+	text-align: center;
+}
+
+.td-center {
+	text-align: center;
+}
