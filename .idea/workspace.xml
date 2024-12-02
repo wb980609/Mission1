@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="first commit" />
+    <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step1/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step1/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step1/ApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step2/DataBaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step2/DataBaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step2/DatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step2/DatabaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step3/JspTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step3/JspTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/dto/PosHistoryDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/dto/PosHistoryDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/dto/WifiInfoDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/dto/WifiInfoDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/model/PosHistoryModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/model/PosHistoryModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/model/WifiInfoDetailModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/model/WifiInfoDetailModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/model/WifiInfoModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/model/WifiInfoModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/PosHistoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/PosHistoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/SqliteConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/SqliteConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/WifiApiComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/WifiApiComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/WifiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/zerobase/wifi/service/WifiService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "wb980609"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/wb980609/Mission1.git",
+    "accountId": "cbbe9797-5284-48f6-9a20-1559f5234141"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -27,7 +56,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Source/Projects/mission-template-source"
+    "last_opened_file_path": "C:/java/Mission1",
+    "애플리케이션.ApiTest.executor": "Run"
   }
 }]]></component>
   <component name="RunManager">
