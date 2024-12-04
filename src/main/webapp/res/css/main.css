@@ -45,3 +45,7 @@ p.nothing {
 .td-center {
 	text-align: center;
 }
+
+.flex-container{
+    display: flex;
+}

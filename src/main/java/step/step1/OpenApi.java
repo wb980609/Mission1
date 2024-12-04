@@ -1,7 +1,7 @@
 package step.step1;
 
-
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -16,7 +16,7 @@ public class OpenApi {
         String request = null;
 
         try {
-            String url = String.format("http://openapi.seoul.go.kr:8088/7073676c4a7361743131375672575259/json/TbPublicWifiInfo/%s/%s/", startPage, endPage);
+            String url = String.format("http://openapi.seoul.go.kr:8088/62645947796a776232396379705253/json/TbPublicWifiInfo/%s/%s/", startPage, endPage);
 
             URL url1 = new URL(url);
             HttpURLConnection conn = (HttpURLConnection) url1.openConnection();
@@ -45,5 +45,9 @@ public class OpenApi {
         }
 
         return request;
+    }
+
+    public static void main(String[] args) throws IOException {
+        System.out.print(get(37,125));
     }
 }

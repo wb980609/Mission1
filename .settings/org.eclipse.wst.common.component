@@ -15,7 +15,7 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
                 
         <property name="context-root" value="zerobase-mission3"/>
-                
+
         <property name="java-output-path" value="/mission-template-source/target/classes"/>
             
     </wb-module>
