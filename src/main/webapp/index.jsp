@@ -11,11 +11,11 @@
 	<jsp:include page="inc_menu.jsp"/>
 
 	<label for = "input">LAT : </label>
-	<input type = "text" id = "inputLAT" value = 0.0>
+	<input type = "text" id = "inputLat" value = 0.0>
 	,
 	<label for = "input">LNT : </label>
-    <input type = "text" id = "inputLNT" value = 0.0>
-    <button>내 위치 가져오기</button>
+    <input type = "text" id = "inputLnt" value = 0.0>
+    <button id = "getPositionButton">내 위치 가져오기</button>
     <button>근처 WIFI 정보 보기</button>
 
     <div class = "position-info">

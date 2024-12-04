@@ -6,7 +6,10 @@
 	<link href="/res/css/main.css" rel="stylesheet"/>
 </head>
 <body>
-	<h1>와이파이 정보 구하기</h1>
-	<jsp:include page="inc_menu.jsp"/>
+    <div class = "result-div">
+        <h1>개의 WIFI 정보를 정상적으로 저장하였습니다.</h1>
+        <a href="/">홈으로 가기</a>
+    </div>
+
 </body>
 </html>
