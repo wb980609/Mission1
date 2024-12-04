@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="OPEN API 데이터 확인 및 요청 결과 확인">
+    <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="UI 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/step/step1/OpenApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step1/OpenApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/res/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/res/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/history.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/history.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733098848728</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="UI 구현">
+      <option name="closed" value="true" />
+      <created>1733281345394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733281345394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="OPEN API 데이터 확인 및 요청 결과 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="OPEN API 데이터 확인 및 요청 결과 확인" />
+    <MESSAGE value="UI 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI 구현" />
   </component>
 </project>
