@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="UI 구현">
+    <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="JSP API 화면 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/step/step1/OpenApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step1/OpenApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step3/JspTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step3/JspTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/load-wifi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/load-wifi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/res/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/res/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/step3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/step3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step1/ApiTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +41,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,20 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.OpenApi.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Smart Tomcat.Tomcat.executor": "Run",
-    "Smart Tomcat.이름이 지정되지 않았습니다.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/java/Mission1",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "애플리케이션.ApiTest.executor": "Run",
-    "애플리케이션.OpenApi.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OpenApi.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.이름이 지정되지 않았습니다.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/java/Mission1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;애플리케이션.ApiTest.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.OpenApi.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\java\Mission1\src\main\webapp\res\index.js" />
@@ -146,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733286296941</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".">
+      <option name="closed" value="true" />
+      <created>1733298400997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733298400997</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +178,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="OPEN API 데이터 확인 및 요청 결과 확인" />
     <MESSAGE value="UI 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI 구현" />
+    <MESSAGE value="." />
+    <MESSAGE value="JSP API 화면 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSP API 화면 변경" />
   </component>
 </project>

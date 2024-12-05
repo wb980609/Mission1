@@ -12,9 +12,11 @@
     <link href="/res/css/main.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>JSP 테스트</h1>
-    <p>
-        <%=message%>
-    </p>
+    <div class = "result-div">
+        <h1>
+            <%=message%>개의 WIFI 정보를 정상적으로 저장하였습니다.
+        </h1>
+        <a href="/">홈으로 가기</a>
+    </div>
 </body>
 </html>

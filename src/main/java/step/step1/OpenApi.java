@@ -49,7 +49,6 @@ public class OpenApi {
 
     public static void main(String[] args) throws IOException {
 
-
         System.out.print(get(37,126));
     }
 
