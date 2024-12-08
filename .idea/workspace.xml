@@ -5,19 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="JSP API 화면 변경">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DBConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/HistoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/WifiDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/HistoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/WifiDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/step/step1/OpenApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step1/OpenApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/step/step3/JspTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step3/JspTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step3/JspTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step3/WifiAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/load-wifi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/load-wifi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/step3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/step3.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step1/ApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/res/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/res/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/step3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step3/JspTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,7 +45,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/wb980609/Mission1.git&quot;,
-    &quot;accountId&quot;: &quot;cbbe9797-5284-48f6-9a20-1559f5234141&quot;
+    &quot;accountId&quot;: &quot;fb4fb74b-6bc9-4462-8c32-cab432ea3eec&quot;
   }
 }</component>
   <component name="LogFilters">
@@ -53,27 +67,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ApiTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OpenApi.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Smart Tomcat.Tomcat.executor&quot;: &quot;Run&quot;,
-    &quot;Smart Tomcat.이름이 지정되지 않았습니다.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/java/Mission1&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;애플리케이션.ApiTest.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.OpenApi.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ApiTest.executor": "Run",
+    "Application.OpenApi.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.Tomcat.executor": "Run",
+    "Smart Tomcat.이름이 지정되지 않았습니다.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Source/Projects/Mission1/src/main",
+    "settings.editor.selected.configurable": "settings.sync",
+    "애플리케이션.ApiTest.executor": "Run",
+    "애플리케이션.OpenApi.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Source\Projects\Mission1\src\main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\java\Mission1\src\main\webapp\res\index.js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat">
+    <configuration name="OpenApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="step.step1.OpenApi" />
+      <module name="zerobase-mission3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="step.step1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="mission-template-source" />
       <method v="2">
@@ -93,14 +124,17 @@
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="catalinaBase" value="C:\Users\user\.SmartTomcat\Mission1\zerobase-mission3" />
+      <option name="catalinaBase" value="C:\Users\PC\.SmartTomcat\Mission1\zerobase-mission3" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/9.0.97" />
-          <option name="path" value="$PROJECT_DIR$/../../apache-tomcat-9.0.97" />
+          <option name="path" value="$USER_HOME$/apache-tomcat-9.0.97" />
           <option name="version" value="9.0.97.0" />
         </TomcatInfo>
       </option>
@@ -110,6 +144,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Smart Tomcat.Tomcat" />
+      <item itemvalue="애플리케이션.OpenApi" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.OpenApi" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
