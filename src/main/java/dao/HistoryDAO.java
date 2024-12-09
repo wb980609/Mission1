@@ -3,12 +3,8 @@ package dao;
 import Database.DBConnect;
 import dto.HistoryDTO;
 
-import java.text.DateFormatSymbols;
-import java.text.SimpleDateFormat;
 import java.util.*;
 import java.sql.*;
-import java.util.Date;
-
 
 public class HistoryDAO {
     public static Connection connection;

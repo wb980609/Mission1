@@ -12,8 +12,6 @@ import com.google.gson.JsonParser;
 import java.io.IOException;
 import java.net.URL;
 
-import java.io.IOException;
-
 import static dao.WifiDAO.insertPublicWifi;
 
 public class WifiAPI {
