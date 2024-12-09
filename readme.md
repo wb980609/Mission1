@@ -4,15 +4,20 @@
   - 서울 공공 데이터 API를 이용해 자신의 위치 및 특정 위치에서 반경 내에 존재하는 공공 와이파이를 찾는 웹 서비스
 
 
-1. 라이브러리 추가를 위해 pom파일의 주석을 제거함
-2. step1 패키지에 있는 ApiTest에 OpenAPI호출 코드를 작성함
-3. step2 패키지에 있는 데이터베이스 연결 테스트 코드를 작성함
-4. step3 패키지에 있는 jsp실행 및 java클래스를 호출하는 코드를 작성함
+# 개발 환경
+  - IDE : IntelliJ
+  - JDK : 1.8
 
+# Tech Stack
+  - Language : java
+  - Build : Maven
+  - DB : SQLITE
+  - Server : Tomcat 9.0.97
+  - Web : HTML5, CSS, JSP
+  - Library : Lombok, Okhttp3, Gson
+  - API : https://data.seoul.go.kr/dataList/OA-20883/S/1/datasetView.do
 
-# 이 과정이 끝나면, 프로젝트를 진행해서 과제를 완성함.
-
-
-* 참고사항
-  - documents 폴더에 있는 하버사인 공식 참고 사이트 참조
-  - open api를 통해서 가져온 데이터 구조는 [open-api-result-sample.json](documents%2Fopen-api-result-sample.json) 파일 참조
+# 프로젝트 개요
+  - OPEN API 를 활용하여 서울시 공공 와이파이 크롤링 및 저장
+  - 사용자가 입력한 위도 경도 좌표를 기반으로 20개의 공공 와이파이 정보 표출
+  - 입력한 위치정보와 조회 시점을 저장, 삭제 및 조회
