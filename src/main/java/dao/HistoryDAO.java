@@ -15,7 +15,7 @@ public class HistoryDAO {
     public static PreparedStatement preparedStatement;
     public static ResultSet resultSet;
 
-    public static void searchHistory(String lat, String lnt) {
+    public static void insertHistory(String lat, String lnt, String execTime) {
 
         connection = null;
         preparedStatement = null;
@@ -24,33 +24,19 @@ public class HistoryDAO {
         try {
             connection = DBConnect.connectDB();
 
-            DateFormatSymbols dfs = new DateFormatSymbols(Locale.KOREAN);
-            dfs.setWeekdays(new String[]{
-                    "unused",
-                    "일요일",
-                    "월요일",
-                    "화요일",
-                    "수요일",
-                    "목요일",
-                    "금요일",
-                    "토요일"
-            });
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd '('E')' HH:mm:ss", dfs);
-            String strDate = sdf.format(new Date());
-
-            String sql = " insert into search_wifi "
-                    + " (lat, lnt, search_dttm) "
+            String sql = " insert into pos_history "
+                    + " (lat, lnt, reg_dt) "
                     + " values ( ?, ?, ? )";
 
             preparedStatement = connection.prepareStatement(sql);
 
             preparedStatement.setString(1, lat);
             preparedStatement.setString(2, lnt);
-            preparedStatement.setString(3, strDate.toString());
+            preparedStatement.setString(3, execTime);
 
             preparedStatement.executeUpdate();
 
-            System.out.println("데이터가 삽입 완료되었습니다.");
+            System.out.println("history 데이터 삽입 완료");
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -69,7 +55,7 @@ public class HistoryDAO {
         try {
             connection = DBConnect.connectDB();
             String sql = " select * "
-                    + " from search_wifi "
+                    + " from pos_history "
                     + " order by id desc ";
 
             preparedStatement = connection.prepareStatement(sql);
@@ -80,7 +66,7 @@ public class HistoryDAO {
                         resultSet.getInt("id")
                         , resultSet.getString("lat")
                         , resultSet.getString("lnt")
-                        , resultSet.getString("search_dttm")
+                        , resultSet.getString("reg_dt")
                 );
                 list.add(historyDTO);
             }
@@ -101,7 +87,7 @@ public class HistoryDAO {
 
         try {
             connection = DBConnect.connectDB();
-            String sql = "delete from search_wifi where id = ? ";
+            String sql = "delete from pos_history where id = ? ";
 
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, Integer.parseInt(id));

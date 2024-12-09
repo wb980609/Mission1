@@ -12,6 +12,6 @@ public class HistoryDTO {
     private int id;                     //id
     private String lat;                 //lat
     private String lnt;                 //lnt
-    private String searchDttm;          //조회일자
+    private String reg_dt;          //조회일자
 
 }

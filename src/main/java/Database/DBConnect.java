@@ -6,7 +6,9 @@ public class DBConnect {
     public static Connection connectDB() {
 
         //SQLite 데이터베이스 파일 위치
-        String dbFilePath = "C:/Source/Projects/Mission1/db/wifi_db.sqlite";
+        //String dbFilePath = "C:/Source/Projects/Mission1/db/wifi_db.sqlite";
+        String dbFilePath = "C:/java/Mission1/db/test_db.db";
+
         String url = "jdbc:sqlite:" + dbFilePath;
 
         Connection connection = null;

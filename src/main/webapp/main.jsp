@@ -80,7 +80,7 @@
                     <% } %>
                     <% } %>
                     <% } else { %>
-                            <td colspan='17'> 위치 정보를 입력하신 후에 조회해 주세요. </td>
+                            <td class = "td-center" colspan='17'> 위치 정보를 입력하신 후에 조회해 주세요. </td>
                         <% } %>
                 </tbody>
             </table>
@@ -93,8 +93,6 @@
 
                         if (latitude !== "" || longitude !== "") {
                             window.location.assign("http://localhost:8080?lat=" + latitude + "&lnt=" + longitude);
-                        } else {
-                            alert("위치 정보를 입력하신 후에 조회해주세요.")
                         }
                     })
         </script>

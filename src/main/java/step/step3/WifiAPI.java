@@ -83,7 +83,10 @@ public class WifiAPI {
                                 .getAsJsonObject().get("row")
                                 .getAsJsonArray();
 
+                        System.out.println("JsonArray 크기: " + jsonArray.size());
+
                         count += insertPublicWifi(jsonArray);   //데이터 로드 갯수
+                        System.out.println("삽입된 데이터 수: " + count);
 
                     } else {
                         System.out.println("API 호출 실패: " + response.code());

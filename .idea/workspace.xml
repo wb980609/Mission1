@@ -5,21 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e089184f-ab99-4ecc-bf17-c08ba27db370" name="변경" comment="JSP API 화면 변경">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Database/DBConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/HistoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/WifiDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/HistoryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dto/WifiDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/step/step3/JspTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step3/WifiAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/load-wifi.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/load-wifi.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/res/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/res/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/step3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/step/step3/JspTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/wifi_db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db/wifi_db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DBConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/HistoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/HistoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/WifiDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/WifiDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/HistoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/HistoryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step1/ApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step1/OpenApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step2/DataBaseConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step2/DatabaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/step3/WifiAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/step3/WifiAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/dto/PosHistoryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/dto/WifiInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/model/PosHistoryModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/model/WifiInfoDetailModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/model/WifiInfoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/service/PosHistoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/service/SqliteConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/service/WifiApiComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zerobase/wifi/service/WifiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/history.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/history.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/ApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/step/step1/OpenApi.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +54,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/wb980609/Mission1.git&quot;,
-    &quot;accountId&quot;: &quot;fb4fb74b-6bc9-4462-8c32-cab432ea3eec&quot;
+    &quot;accountId&quot;: &quot;cbbe9797-5284-48f6-9a20-1559f5234141&quot;
   }
 }</component>
   <component name="LogFilters">
@@ -78,7 +87,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Source/Projects/Mission1/src/main",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "애플리케이션.ApiTest.executor": "Run",
     "애플리케이션.OpenApi.executor": "Run"
   }
@@ -92,7 +101,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Smart Tomcat.Tomcat">
-    <configuration name="OpenApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OpenApi" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="step.step1.OpenApi" />
       <module name="zerobase-mission3" />
       <extension name="coverage">
@@ -124,7 +133,7 @@
       <predefined_log_file id="Tomcat Catalina Log" />
       <predefined_log_file id="Tomcat Manager Log" />
       <predefined_log_file id="Tomcat Host Manager Log" />
-      <option name="catalinaBase" value="C:\Users\PC\.SmartTomcat\Mission1\zerobase-mission3" />
+      <option name="catalinaBase" value="C:\Users\user\.SmartTomcat\Mission1\zerobase-mission3" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
       <option name="envOptions">
@@ -134,7 +143,7 @@
       <option name="tomcatInfo">
         <TomcatInfo>
           <option name="name" value="Apache Tomcat/9.0.97" />
-          <option name="path" value="$USER_HOME$/apache-tomcat-9.0.97" />
+          <option name="path" value="$PROJECT_DIR$/../../apache-tomcat-9.0.97" />
           <option name="version" value="9.0.97.0" />
         </TomcatInfo>
       </option>
@@ -148,11 +157,6 @@
       <item itemvalue="Smart Tomcat.Tomcat" />
       <item itemvalue="애플리케이션.OpenApi" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.OpenApi" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -224,5 +228,13 @@
     <MESSAGE value="." />
     <MESSAGE value="JSP API 화면 변경" />
     <option name="LAST_COMMIT_MESSAGE" value="JSP API 화면 변경" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="com.poratu.idea.plugins.tomcat">
+        <watch expression="totalCnt" />
+        <watch expression="totalCnt" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
